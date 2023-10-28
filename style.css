@@ -18,7 +18,6 @@ body {
   margin: 0;
   font-family: "Cabin", sans-serif;
   background-color: var(--bgc-lightgray);
-  height: 100vh;
 }
 p {
   margin: 0;
@@ -37,7 +36,6 @@ button {
   display: grid;
   grid-template-columns: minmax(auto, 1fr) 5fr;
   grid-template-rows: 1fr 5fr;
-  height: 100%;
 }
 header {
   grid-row: 1 / 2;
@@ -181,7 +179,9 @@ main {
   grid-template-columns: 5fr 2fr;
   grid-template-rows: repeat(2, 1fr);
   gap: 30px;
-  padding: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
 }
 /*? #region projects-container */
 .projects-container {
