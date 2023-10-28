@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cabin:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>Admin Dashboard</title>
+  </head>
+  <body>
+    <div class="layout-container">
+      <header>
+        <div class="header-first-row">
+          <img
+            class="first-row-search-icon"
+            src="https://img.icons8.com/sf-black/64/000000/search.png"
+            alt=""
+          />
+          <input type="text" />
+          <div class="first-row-avatar-container">
+            <img
+              class="first-row-bell-icon"
+              src="https://img.icons8.com/ios-filled/50/000000/alarm.png"
+              alt=""
+            />
+            <img
+              class="first-row-avatar"
+              src="./Assets/profilePic.jpg"
+              alt=""
+            />
+            <p>Rick Navarro</p>
+          </div>
+        </div>
+        <div class="header-second-row">
+          <div class="second-row-avatar-container">
+            <img src="./Assets/profilePic.jpg" alt="" />
+            <div>
+              <p>Hi there,</p>
+              <p class="second-row-avatar-name">Rick Navarro (@xxxx)</p>
+            </div>
+          </div>
+          <div class="second-row-actions-container">
+            <button>New</button>
+            <button>Upload</button>
+            <button>Share</button>
+          </div>
+        </div>
+      </header>
+      <nav class="sidebar">
+        <div class="logo-container">
+          <img
+            src="https://img.icons8.com/ios-filled/50/FFFFFF/grid-3.png"
+            alt=""
+          />
+          <p>Dashboard</p>
+        </div>
+        <ul>
+          <li>
+            <svg
+              class="nav-icon"
+              xmlns="http://www.w3.org/2000/svg"
+              x="0px"
+              y="0px"
+              viewBox="0 0 50
+            50"
+              style="fill: #ffffff"
+            >
+              <path
+                d="M 25 1.0507812 C 24.7825 1.0507812 24.565859 1.1197656 24.380859 1.2597656 L 1.3808594 19.210938 C 0.95085938 19.550938 0.8709375 20.179141 1.2109375 20.619141 C 1.5509375 21.049141 2.1791406 21.129062 2.6191406 20.789062 L 4 19.710938 L 4 46 C 4 46.55 4.45 47 5 47 L 19 47 L 19 29 L 31 29 L 31 47 L 45 47 C 45.55 47 46 46.55 46 46 L 46 19.710938 L 47.380859 20.789062 C 47.570859 20.929063 47.78 21 48 21 C 48.3 21 48.589063 20.869141 48.789062 20.619141 C 49.129063 20.179141 49.049141 19.550938 48.619141 19.210938 L 25.619141 1.2597656 C 25.434141 1.1197656 25.2175 1.0507812 25 1.0507812 z M 35 5 L 35 6.0507812 L 41 10.730469 L 41 5 L 35 5 z"
+              ></path>
+            </svg>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <img
+              class="nav-icon"
+              src="https://img.icons8.com/external-goofy-solid-kerismaker/96/FFFFFF/external-User-Profile-web-development-goofy-solid-kerismaker.png"
+              alt=""
+            />
+            <a href="/">Profile</a>
+          </li>
+          <li>
+            <img
+              class="nav-icon"
+              src="https://img.icons8.com/glyph-neue/64/FFFFFF/chat.png"
+              alt=""
+            />
+            <a href="/">Messages</a>
+          </li>
+          <li>
+            <img
+              class="nav-icon"
+              src="https://img.icons8.com/fluency-systems-filled/48/FFFFFF/clock--v1.png"
+              alt=""
+            />
+            <a href="/">History</a>
+          </li>
+          <li>
+            <img
+              class="nav-icon"
+              src="https://img.icons8.com/material-sharp/24/FFFFFF/edit-file.png"
+              alt=""
+            />
+            <a href="/">Tasks</a>
+          </li>
+          <li>
+            <img
+              class="nav-icon"
+              src="https://img.icons8.com/sf-regular-filled/48/FFFFFF/groups.png"
+              alt=""
+            />
+            <a href="/">Communities</a>
+          </li>
+          <li>&nbsp;</li>
+          <li>
+            <img
+              class="nav-icon"
+              src="https://img.icons8.com/sf-regular-filled/48/FFFFFF/settings.png"
+              alt=""
+            />
+            <a href="/">Settings</a>
+          </li>
+          <li>
+            <img
+              class="nav-icon"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/questions.png"
+              alt=""
+            />
+            <a href="/">Support</a>
+          </li>
+          <li>
+            <img
+              class="nav-icon"
+              src="https://img.icons8.com/ios-filled/50/FFFFFF/security-shield-green.png"
+              alt=""
+            />
+            <a href="/">Privacy</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <div class="projects-container">
+          <div class="project-card">
+            <p class="project-card-title">Super Cool Project</p>
+            <p class="project-card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
+              sapiente!
+            </p>
+            <div class="project-card-btn-group">
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/add-to-favorites--v1.png"
+                  alt="add-to-favorites--v1"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/windows/32/000000/download.png"
+                  alt=""
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/forward-arrow.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div class="project-card">
+            <p class="project-card-title">Less Cool Project</p>
+            <p class="project-card-description">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quam
+              harum quo laudantium!
+            </p>
+            <div class="project-card-btn-group">
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/add-to-favorites--v1.png"
+                  alt="add-to-favorites--v1"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/windows/32/000000/download.png"
+                  alt=""
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/forward-arrow.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div class="project-card">
+            <p class="project-card-title">Impossible App</p>
+            <p class="project-card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Quibusdam, accusantium.
+            </p>
+            <div class="project-card-btn-group">
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/add-to-favorites--v1.png"
+                  alt="add-to-favorites--v1"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/windows/32/000000/download.png"
+                  alt=""
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/forward-arrow.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div class="project-card">
+            <p class="project-card-title">Easy Peasy App</p>
+            <p class="project-card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia esse
+              necessitatibus repudiandae aliquam magnam!
+            </p>
+            <div class="project-card-btn-group">
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/add-to-favorites--v1.png"
+                  alt="add-to-favorites--v1"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/windows/32/000000/download.png"
+                  alt=""
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/forward-arrow.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div class="project-card">
+            <p class="project-card-title">Ad Blocker</p>
+            <p class="project-card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Accusantium iusto aliquid minus incidunt fuga dolorum!
+            </p>
+            <div class="project-card-btn-group">
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/add-to-favorites--v1.png"
+                  alt="add-to-favorites--v1"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/windows/32/000000/download.png"
+                  alt=""
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/forward-arrow.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+          <div class="project-card">
+            <p class="project-card-title">Money Maker</p>
+            <p class="project-card-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt sed
+              exercitationem saepe accusamus a.
+            </p>
+            <div class="project-card-btn-group">
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/add-to-favorites--v1.png"
+                  alt="add-to-favorites--v1"
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/windows/32/000000/download.png"
+                  alt=""
+                />
+              </button>
+              <button>
+                <img
+                  src="https://img.icons8.com/ios/50/000000/forward-arrow.png"
+                  alt=""
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="announcements-container">
+          <div class="announcement">
+            <p class="announcement-title">Site Maintenance</p>
+            <p class="announcement-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur delectus quidem nesciunt!
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div class="announcement">
+            <p class="announcement-title">Community Share Day</p>
+            <p class="announcement-description">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sed
+              reprehenderit tempora nulla sunt consequuntur praesentium?
+            </p>
+          </div>
+          <div class="divider"></div>
+          <div class="announcement">
+            <p class="announcement-title">Updated Privacy Policy</p>
+            <p class="announcement-description">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita
+              eos quod blanditiis minima velit ullam! Quasi?
+            </p>
+          </div>
+        </div>
+        <div class="trending-container">
+          <div class="trend">
+            <img src="./Assets/profilePic.jpg" />
+            <div>
+              <p class="trend-user">@tegan</p>
+              <p class="trend-summary">World Peace Builder</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+          <div class="trend">
+            <img src="./Assets/profilePic.jpg" />
+            <div>
+              <p class="trend-user">@morgan</p>
+              <p class="trend-summary">Super Cool Project</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="trend">
+            <img src="./Assets/profilePic.jpg" />
+            <div>
+              <p class="trend-user">@kendall</p>
+              <p class="trend-summary">Life Changing App</p>
+            </div>
+          </div>
+          <div class="divider"></div>
+
+          <div class="trend">
+            <img src="./Assets/profilePic.jpg" />
+            <div>
+              <p class="trend-user">@alex</p>
+              <p class="trend-summary">No Traffic Maker</p>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- <a  href="https://icons8.com/icon/GZlDXaeDbGUm/user-profile">User Profile</a> icon by <a href="https://icons8.com">Icons8</a> -->
+    </div>
+  </body>
+</html>
