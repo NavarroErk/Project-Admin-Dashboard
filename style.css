@@ -189,7 +189,13 @@ main {
   grid-row: 1 / 3;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-rows: 20px auto;
   gap: 30px;
+}
+.projects-container > p {
+  grid-column: 1 / -1;
+  font-size: 1.6rem;
+  margin-bottom: 20px;
 }
 .project-card {
   background-color: var(--bgc-white);
@@ -231,11 +237,19 @@ main {
   grid-column: 2;
   grid-row: 1;
   background-color: var(--bgc-white);
-  padding: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 50px;
   border-radius: var(--dashboard-border-radius);
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.announcements-container > p {
+  font-size: 1.6rem;
+  position: relative;
+  bottom: 50px;
+  right: 10px;
 }
 .divider {
   border: 1px solid var(--bgc-lightgray);
@@ -268,6 +282,11 @@ main {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.trending-container > p {
+  font-size: 1.6rem;
+  position: relative;
+  bottom: 5px;
 }
 .trend {
   display: flex;
