@@ -18,7 +18,7 @@ body {
   margin: 0;
   font-family: "Cabin", sans-serif;
   background-color: var(--bgc-lightgray);
-  /* max-width: 2560px; */
+  height: 100vh;
 }
 p {
   margin: 0;
@@ -37,7 +37,7 @@ button {
   display: grid;
   grid-template-columns: minmax(auto, 1fr) 5fr;
   grid-template-rows: 1fr 5fr;
-  height: 100vh;
+  height: 100%;
 }
 header {
   grid-row: 1 / 2;
